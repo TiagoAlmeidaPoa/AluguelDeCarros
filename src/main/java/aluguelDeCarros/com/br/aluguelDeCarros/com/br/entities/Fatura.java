@@ -5,10 +5,10 @@ package aluguelDeCarros.com.br.aluguelDeCarros.com.br.entities;
 // a soma do pagamento basico + taxa . 
 
 public class Fatura {
-	
+
 	private Double pagamentoBasico;
 	private Double taxa;
-	
+
 	public Fatura(Double pagamentoBasico, Double taxa) {
 		super();
 		this.pagamentoBasico = pagamentoBasico;
@@ -30,8 +30,8 @@ public class Fatura {
 	public void setTaxa(Double taxa) {
 		this.taxa = taxa;
 	}
-	
-	//criei o metodo pagamento total que soma o pagamento basico + a taxa;
+
+	// criei o metodo pagamento total que soma o pagamento basico + a taxa;
 	public double pagamentoTotal() {
 		return getPagamentoBasico() + getTaxa();
 	}
