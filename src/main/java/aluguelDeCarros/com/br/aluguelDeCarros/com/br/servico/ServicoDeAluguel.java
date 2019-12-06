@@ -32,7 +32,7 @@ public class ServicoDeAluguel {
 		// por 60 pra minutos e depois por 60 para transformar em horas
 		// e coloquei um cast pra double
 
-		double horas = (double) (t1 - t2) / 1000 / 60 / 60;
+		double horas = (double) (t2 - t1) / 1000 / 60 / 60;
 
 		// aqui estou verificando a quantia de horas para ver se sera
 		// cobrado o valor por hora ou por dia, tambem estou arredondando as horas.

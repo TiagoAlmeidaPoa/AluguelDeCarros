@@ -10,7 +10,6 @@ public class Fatura {
 	private Double taxa;
 
 	public Fatura(Double pagamentoBasico, Double taxa) {
-		super();
 		this.pagamentoBasico = pagamentoBasico;
 		this.taxa = taxa;
 	}
